@@ -8,6 +8,11 @@ public class ThreadCreator {
         Thread thread2 = new Thread(new PrintTask("task2"));
         Thread thread3 = new Thread(new PrintTask("task3"));
 
+        /* way no. 2 to create thread */
+//        new PrintTask("task1");
+//        new PrintTask("task2");
+//        new PrintTask("task3");
+
         System.out.printf("Threads created, starting tasks.\n");
 
         thread1.start();
